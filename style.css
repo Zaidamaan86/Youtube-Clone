@@ -4,31 +4,45 @@
     height: 185px;
     border-radius: 10px;
     object-fit: cover;
-    margin-bottom: 7px;
 }
 .container{
     
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 5px;
+    display: grid;
+    margin-right: 15px;
+    margin-bottom: 23px;
+    /* background-color: aqua; */
+}
+.body-thumb-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-thumb{
+    /* display: grid; */
+    /* grid-template-columns: 100px 100px; */
+   
 }
 .author-cont{
     margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
    
 }
 .author-icon-cont{
   
     display: inline-block;
     vertical-align: top;
-    margin-right: 6px;
+    /* margin-right: 6px; */
+    /* background-color: grey; */
 
 }
 .author-icon{
-    width: 30px;
+    width: 35px;
     border-radius: 20px;
 }
 .about-author{
-    display: inline-block;
+    display: grid;
+    display: 100px;
+    /* background-color: grey; */
 }
 .title{
     font-size: 14px;
