@@ -1,3 +1,27 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    /* background-color: rgb(27, 191, 27); */
+    
+}
+.middle-section{
+
+}
+.search-bar{
+    
+    width: 470px;
+    padding-top: 9px;
+    padding-left: 15px;
+    padding-bottom: 9px;
+    border-radius: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    border: 1px solid grey;
+    font-size: 14px;
+}
 
 .image-1{
     width: 100%;
